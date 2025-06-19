@@ -9,7 +9,7 @@ int main(void) {
                 ch = ch - ('a' - 'A');
                 printf("=> %c\n", ch);
         } else {
-                printf("ERROR!\n");
+                printf("ERROR: 小文字を入力してください。\n");
         }
         return 0;
 }
