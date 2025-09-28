@@ -6,10 +6,9 @@ int main(void) {
         scanf("%c", &ch);
 
         if('a' <= ch && ch <= 'z') {
-                ch = ch - ('a' - 'A');
-                printf("=> %c\n", ch);
+                printf("=> %c\n", ch - ('a' - 'A'));
         } else {
-                printf("ERROR: 小文字を入力してください。\n");
+                printf("エラー: 小文字を入力してください。\n");
         }
         return 0;
 }
