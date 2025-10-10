@@ -2,9 +2,7 @@
 
 int main(void) {
 	int ten[5][3], rank[5];
-	int i, j, sum[5] = {
-		0
-	};
+	int i, j, sum[5] = {0};
 	float avg;
 
 	for (i = 0; i < 5; i++) {
